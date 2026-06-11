@@ -1,0 +1,5 @@
+<library path="lib/libPairsUavUnrealSimulation_Simulator">
+  <class name="pairs_uav_unreal_simulation/UnrealSimulator" type="pairs_uav_unreal_simulation::UnrealSimulator" base_class_type="nodelet::Nodelet">
+    <description>UnrealSimulator nodelet</description>
+  </class>
+</library>
