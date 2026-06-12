@@ -1,4 +1,4 @@
-# MRS FlightForge Simulator
+# PAIRS FlightForge Simulator
 ![logos](.fig/logos.png)
 
 
@@ -23,14 +23,14 @@
 
 ### Linux
 
-1. Install the [MRS UAV System](https://github.com/ctu-mrs/pairs_uav_system)
-2. Install the MRS UAV System FlightForge endpoint
+1. Install the [PAIRS UAV System](https://github.com/pairs-lab/pairs_uav_system)
+2. Install the PAIRS UAV System FlightForge endpoint
 ```bash
-sudo apt install ros-noetic-mrs-uav-unreal-simulation
+sudo apt install ros-noetic-pairs-uav-unreal-simulation
 ```
-3. Download the and unpack [MRS FlightForge simulator](https://nasmrs.fel.cvut.cz/index.php/s/MnGARsSwnpeVy5z)
+3. Download the and unpack [PAIRS FlightForge simulator](https://nasmrs.fel.cvut.cz/index.php/s/MnGARsSwnpeVy5z)
 4. Launch the FlightForge Simulator by `./pairs_flight_forge.sh`. Alternatively, start it in a headless mode via `./pairs_flight_forge.sh -RenderOffscreen`.
-6. Start the MRS UAV System FlightForge endpoint
+6. Start the PAIRS UAV System FlightForge endpoint
 ```bash
 roscd pairs_uav_unreal_simulation
 ./tmux/one_drone/start.sh
@@ -43,7 +43,7 @@ Requirements:
 * WSL 2.0
 
 1. Install Ubuntu 20.04 into the WSL 2.0 using the Microsoft Store
-2. Install the [MRS UAV System](https://github.com/ctu-mrs/pairs_uav_system) into WSL 2.0
+2. Install the [PAIRS UAV System](https://github.com/pairs-lab/pairs_uav_system) into WSL 2.0
 3. Create `.wslconfig` file in `C:/Users/<User>/.wslconfig`
 4. Place the following content into `.wslconfig`
 ```
@@ -55,13 +55,13 @@ debugConsole=false
 hostAddressLoopback=true
 ```
 5. Restart the WSL by issuing `wsl --shutdown` into a comand line.
-6. Install the MRS UAV System FlightForge endpoint
+6. Install the PAIRS UAV System FlightForge endpoint
 ```bash
-sudo apt install ros-noetic-mrs-uav-unreal-simulation
+sudo apt install ros-noetic-pairs-uav-unreal-simulation
 ```
 7. Download and unpack the [FlightForge Simulator](https://nasmrs.fel.cvut.cz/index.php/s/MnGARsSwnpeVy5z)
 8. Start the FlightForge Simulator
-9. Start the MRS UAV System FlightForge endpoint
+9. Start the PAIRS UAV System FlightForge endpoint
 ```bash
 roscd pairs_uav_unreal_simulation
 ./tmux/one_drone/start.sh
