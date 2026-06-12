@@ -3,7 +3,7 @@
 
   <name>pairs_uav_unreal_simulation</name>
   <version>1.0.1</version>
-  <description>The MRS UnrealEngine simulator</description>
+  <description>The PAIRS UnrealEngine simulator</description>
 
   <author email="canhthanh@vnu.edu.vn">Thanh Nguyen Canh</author>
   <maintainer email="canhthanh@vnu.edu.vn">Thanh Nguyen Canh</maintainer>
