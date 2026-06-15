@@ -741,7 +741,7 @@ void UnrealSimulator::onInit() {
     ROS_ERROR("[UnrealSimulator]:              sudo apt update && sudo apt upgrade");
     ROS_ERROR("[UnrealSimulator]:");
     ROS_ERROR("[UnrealSimulator]:           2. make sure you have the right version of the Unreal Simulator 'game'");
-    ROS_ERROR("[UnrealSimulator]:              download at: https://github.com/ctu-mrs/pairs_uav_unreal_simulation");
+    ROS_ERROR("[UnrealSimulator]:              download at: https://github.com/pairs-lab/pairs_uav_flightforge_simulator");
     ROS_ERROR("[UnrealSimulator]:");
 
     ros::shutdown();
