@@ -13,7 +13,7 @@ endif()
 add_compile_options(-Wno-missing-braces)
 
 # 1 == use rclcpp::Timer implementation
-# 0 == use MRS's thread timer implementation
+# 0 == use PAIRS's thread timer implementation
 set(USE_ROS_TIMER 0)
 
 if(${USE_ROS_TIMER})

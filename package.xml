@@ -4,7 +4,7 @@
 
   <name>pairs_uav_flightforge_simulator</name>
   <version>2.0.0</version>
-  <description>The MRS FlightForge simulator</description>
+  <description>The PAIRS FlightForge simulator</description>
 
   <author email="canhthanh@vnu.edu.vn">Thanh Nguyen Canh</author>
   <maintainer email="canhthanh@vnu.edu.vn">Thanh Nguyen Canh</maintainer>

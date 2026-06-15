@@ -916,7 +916,7 @@ void FlightforgeSimulator::timerInit() {
     RCLCPP_ERROR(node_->get_logger(), "              sudo apt update && sudo apt upgrade");
     RCLCPP_ERROR(node_->get_logger(), "     ");
     RCLCPP_ERROR(node_->get_logger(), "           2. make sure you have the right version of the FlightForge Simulator binary 'game'");
-    RCLCPP_ERROR(node_->get_logger(), "              download at: https://github.com/ctu-mrs/pairs_uav_unreal_simulation");
+    RCLCPP_ERROR(node_->get_logger(), "              download at: https://github.com/pairs-lab/pairs_uav_flightforge_simulator");
     RCLCPP_ERROR(node_->get_logger(), "     ");
 
     rclcpp::shutdown();
