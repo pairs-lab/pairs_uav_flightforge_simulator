@@ -1,5 +1,5 @@
 <library path="lib/libPairsUavUnrealSimulation_HwApiPlugin">
   <class name="pairs_uav_unreal_simulation/Api" type="pairs_uav_unreal_simulation::Api" base_class_type="pairs_uav_hw_api::PairsUavHwApi">
-    <description>MRS UAV Unreal simulator API plugin for the MRS UAV System</description>
+    <description>PAIRS UAV Unreal simulator API plugin for the PAIRS UAV System</description>
   </class>
 </library>

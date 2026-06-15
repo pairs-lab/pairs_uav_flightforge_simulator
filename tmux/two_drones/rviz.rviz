@@ -253,8 +253,8 @@ Visualization Manager:
     - Class: rviz/PublishPoint
       Single click: true
       Topic: /clicked_point
-    - Class: mrs_rviz_plugins/ControlTool
-    - Class: mrs_rviz_plugins/WaypointPlanner
+    - Class: pairs_rviz_plugins/ControlTool
+    - Class: pairs_rviz_plugins/WaypointPlanner
       Drone name: uav1
       Fly now: true
       Height offset: 0
@@ -263,7 +263,7 @@ Visualization Manager:
       Stop at waypoints: false
       Topic: trajectory_generation/path
       Use heading: true
-    - Class: mrs_rviz_plugins/NamedSetGoal
+    - Class: pairs_rviz_plugins/NamedSetGoal
       Name: name
       Topic: goal
   Value: true
